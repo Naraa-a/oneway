@@ -8,7 +8,7 @@
 #' @return NULL
 #' @export
 #' @examples
-#' # mileage <- oneway(mpg~cyl, mtcars)
+#' mileage <- oneway(mpg~cyl, mtcars)
 #' plot(mileage)
 plot.oneway <- function(x, ...){
   if(!inherits(x, "oneway"))

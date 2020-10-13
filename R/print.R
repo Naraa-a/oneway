@@ -8,7 +8,7 @@
 #' @return the input object is returned silently.
 #' @export
 #' @examples
-#' # mileage <- oneway(mpg~cyl, mtcars)
+#' mileage <- oneway(mpg~cyl, mtcars)
 #' print(mileage)
 print.oneway <- function(x, ...){
 
