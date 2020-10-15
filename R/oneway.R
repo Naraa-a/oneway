@@ -11,7 +11,7 @@
 #'
 #' @return a list with 2 elements.
 #' @examples
-#' # mileage <- oneway(mpg ~ cyl, mtcars)
+#' mileage <- oneway(mpg ~ cyl, mtcars)
 oneway <- function(formula, data){
   # delete missing data
   data<- na.omit(data)
